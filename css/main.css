@@ -14,6 +14,13 @@
     align-items: center;
 }
 
+@media (width < 1140px) {
+    .intro__cards {
+        flex-direction: column;
+
+    }
+}
+
 .intro__card {
     max-width: 445px;
     width: 100%;
@@ -44,14 +51,20 @@
     align-items: center;
 }
 
+@media (width < 1140px) {
+    .intro__video {
+        justify-content: center;
+    }
+}
+
 .intro__video-img {
     max-width: 445px;
     position: relative;
     display: flex;
-    transform: translateX(33px);
 }
 
 .play__button {
+    transform: translateX(-33px);
     width: 66px;
     position: absolute;
     cursor: pointer;
@@ -61,6 +74,12 @@
     align-items: center;
     justify-content: center;
     padding: 24px;
+}
+
+@media (width < 1140px) {
+    .play__button {
+        transform: unset;
+    }
 }
 
 .features {
@@ -74,6 +93,9 @@
 .features__cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .features__card {
@@ -140,6 +162,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 104px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (width < 850px) {
+    .technology__cards {
+        
+    }
 }
 
 .technology__card {
@@ -207,10 +237,25 @@
     padding: 95px 0;
 }
 
+@media (width < 1140px) {
+    .focused {
+        padding-bottom: 250px;
+    }
+}
+
 .focused__cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+@media (width < 1140px) {
+    .focused__cards {
+        gap: 200px;
+        justify-content: center;
+    }
 }
 
 .focused__card {
@@ -280,6 +325,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 123px;
+}
+
+@media (width < 1140px) {
+    .contact__cards {
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+    }
 }
 
 .contact__card {
@@ -383,6 +436,7 @@
 .footer__cards {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .footer__adress {
