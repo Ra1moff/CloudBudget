@@ -1,0 +1,124 @@
+.header {
+    height: 100dvh;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),  url(../img/Header/Rectangle\ 3.png) no-repeat center center / cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    gap: 39px;
+}
+
+.nav {
+    padding-top: 58px;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__brand {
+    display: flex;
+    gap: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 29px;
+}
+
+.nav__txt {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav__list {
+    display: flex;
+    gap: 23px;
+}
+
+.nav__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav__form {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.nav__form-icon {
+    width: 32px;
+}
+
+.nav__form-lng {
+    background: transparent;
+    border: none;
+}
+
+.nav__form-btn {
+    padding-left: 9px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 0;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+        background: #fff;
+        color: #ed4c5c;
+    }
+}
+
+.header__title {
+    font-size: 72px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff; 
+}
+
+.header__subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    max-width: 540px;
+}
+
+.header__btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 160px;
+    padding: 17px 0;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: 0.4s;
+    
+
+    &:hover {
+        background: #fff;
+        color: #ed4c5c;
+    }
+}
+

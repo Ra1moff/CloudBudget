@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, button, textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 18px;
+    color: #101010;
+    padding-bottom: 33px;
+}
+
+.footer__item {
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+
