@@ -166,12 +166,6 @@
     justify-content: center;
 }
 
-@media (width < 850px) {
-    .technology__cards {
-        
-    }
-}
-
 .technology__card {
     max-width: 255px;
     width: 100%;
