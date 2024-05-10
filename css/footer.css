@@ -12,10 +12,6 @@
 .footer__adress {
     max-width: 259px;
     width: 100%;
-
-    & .footer__list {
-        padding-bottom: 141px;
-    }
 }
 
 .footer__services {
@@ -30,10 +26,7 @@
 .footer__media {
     max-width: 122px;
     width: 100%;
-}
-
-.footer__payment {
-    padding-left: 142px;
+    margin-right: 142px;
 }
 
 .footer__adress-item {
@@ -54,4 +47,14 @@
     gap: 12px;
 }
 
+.footer__author {
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
 
+@media (width < 1112px) {
+    .footer__author {
+        margin-top: 100px;
+    }
+}
